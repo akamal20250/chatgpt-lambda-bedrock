@@ -28,8 +28,8 @@ A serverless HTTP API that uses **AWS Lambda**, **API Gateway**, and **Amazon Be
     - `bedrock:InvokeModel` on your inference profile  
     - `logs:CreateLogGroup` / `logs:CreateLogStream` / `logs:PutLogEvents`
 
-![Architecture Diagram](docs/architecture.png)  
-> _Paste your draw.io or hand‑drawn diagram into `docs/architecture.md` and render it as `architecture.png`._
+[`docs/architecture_diagram.png`](docs/architecture_diagram.png) 
+
 
 ---
 
