@@ -50,8 +50,6 @@ chatgpt-lambda-bedrock/
 ├── src/
 │   ├── lambda_function.py    # Main Lambda handler—you will paste your working code here
 │   ├── requirements.txt      # boto3
-│   └── config/
-│       └── settings.py       # Loads MODEL_ID & AWS_REGION from env vars
 └── docs/
     ├── architecture-diagram.pdf    # AWS diagram 
     └── architecture-diagram.png    # AWS diagram 
