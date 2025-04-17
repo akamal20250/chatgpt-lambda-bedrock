@@ -46,7 +46,6 @@ A serverless HTTP API that uses **AWS Lambda**, **API Gateway**, and **Amazon Be
 ## Project Structure
 ```plaintext
 chatgpt-lambda-bedrock/
-├── .gitignore
 ├── README.md                 # This file
 ├── src/
 │   ├── lambda_function.py    # Main Lambda handler—you will paste your working code here
@@ -54,4 +53,5 @@ chatgpt-lambda-bedrock/
 │   └── config/
 │       └── settings.py       # Loads MODEL_ID & AWS_REGION from env vars
 └── docs/
-    └── architecture.md       # Text + embedded diagram image
+    ├── architecture-diagram.pdf    # AWS diagram 
+    └── architecture-diagram.png    # AWS diagram 
